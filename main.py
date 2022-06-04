@@ -3,8 +3,8 @@ from dash import dash, dcc, html
 from google.cloud import bigquery
 import plotly.express as px
 
-app=dash.Dash(__name__)
-server=app.server
+app = dash.Dash(__name__)
+server= app.server
 client = bigquery.Client()
 
 query = """
@@ -43,6 +43,3 @@ if __name__ == '__main__':
 #def hello_world():
 #   response = requests.post(info, data)
 #   return response
-
-#if __name__ == "__main__":
-#    app.run(debug=True, host="0.0.0.0", port=8080)
