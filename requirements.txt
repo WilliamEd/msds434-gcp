@@ -1,7 +1,6 @@
 pylint==2.13.4
 sklearn==0.0
 Pylint
-jupyter
 pytest-cov
 nbval
 click
