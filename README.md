@@ -1,14 +1,14 @@
-#**MDSD434-GCP Dev**
+**#MDSD434-GCP Dev**
 
 This is the Main Development branch for the Northwestern MS Data Science Analytics Application Engineering course - MSDS 434. 
 The project built is for Covid-19 ML Forcasting.
 
-#**Architecture Design**
+**#Architecture Design**
 ![image](https://user-images.githubusercontent.com/9835157/172215695-4c369b75-40ca-4a11-9593-643571ae6c45.png)
 
 Using a CI/CD pipeline and Google Cloud Platform (GCP) this project creates a app via the App Engine. The data used by the app is sourced from Google BigQuery's public dataset Covid-19.
 
-#**GCP Process**
+**#GCP Process**
 ![Forcast Image](https://user-images.githubusercontent.com/9835157/172074018-aac6c6c5-64f4-42d7-a43c-ee44371ecf97.PNG)
 
 Resource is created with Dash and all code running this is set in Main.py with testing done through Git Actions.
