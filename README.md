@@ -1,9 +1,12 @@
-# msds434-gcp
-MDSD434-GCP Dev
+#**MDSD434-GCP Dev**
 
-This is the Main Development branch for the MSDS 434 Covid-19 Forcasting project.
+This is the Main Development branch for the Northwestern MS Data Science Analytics Application Engineering course - MSDS 434. 
+The project built is for Covid-19 ML Forcasting.
 
-This project uses ML to forcast probible cases in Germany from Google's Bigquery open source data.
+#**Architecture Design**
+![image](https://user-images.githubusercontent.com/9835157/172215695-4c369b75-40ca-4a11-9593-643571ae6c45.png)
+
+Using a CI/CD pipeline and Google Cloud Platform (GCP) this project creates a app via the App Engine. The data used by the app is sourced from Google BigQuery's public dataset Covid-19.
 
 ![Forcast Image](https://user-images.githubusercontent.com/9835157/172074018-aac6c6c5-64f4-42d7-a43c-ee44371ecf97.PNG)
 
@@ -13,7 +16,7 @@ Testing is done through Git Actions
 
 App.yaml is the file that sets gunicorn gate/server information for App Engine
 
-App engine was set to pull form development in Git as well for a test, however, it was return to manual for simplicity.
+App Engine was set to pull fromm development in Git as well for a test, however, it was return to manual for simplicity.
 
 In BigQuery two queries where used one to create the model, the other to create the forcast. This was also loaded into main.
 
