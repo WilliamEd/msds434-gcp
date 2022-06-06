@@ -19,3 +19,9 @@ In BigQuery two queries where used one to create the model, the other to create 
 
 ![Model](https://user-images.githubusercontent.com/9835157/172074216-40e17fe2-419f-4ba0-80c9-76a661d2791f.PNG)
 ![Forecast Query](https://user-images.githubusercontent.com/9835157/172074241-3ae9e7d3-117c-4f51-979c-68a5528a013b.PNG)
+
+Logging is all done through the Logging application in GCP
+![image](https://user-images.githubusercontent.com/9835157/172076138-53c87f26-014f-453d-9372-b0cb78d58e7c.png)
+
+Billing is all tracked in the billing section of GCP
+![image](https://user-images.githubusercontent.com/9835157/172076185-13e01ffe-59ad-4aa4-8b57-f986ebdcd957.png)
